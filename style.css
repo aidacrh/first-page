@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+nav{
+    background-color: rgba(52, 75, 57, 0.932);
+    width: 100%;
+    padding: 10px 0;
+}
+nav .menu{
+    width: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 0 20px;
+}
+.menu .logo a{
+    text-decoration: none;
+    color: bisque;
+    font-size: 30px;
+}
+.menu ul{
+    display: inline-flex;
+}
+.menu ul li{
+    list-style-type: none;
+}
+.menu ul li a{
+text-decoration: none;
+color: bisque;
+font-size: 18px;
+padding: 8px 15px;
+}
+.img ul li a:hover{
+    background-color: rgb(61, 161, 103);
+    color: rgb(54, 4, 4);
+}
+.img{
+    background-image: url(./image/images.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.center{
+    top: 60%;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    color: rgb(20, 48, 27)
+}
+p{
+    font-size: 18px;
+    color: rgb(20, 48, 27)
+}
+.center btn{
+    margin: 20px;
+}
+.center .btn button{
+    height: 55px;
+    width: 170px;
+    background-color: rgb(20, 48, 27);
+    color: bisque;
+    border: 2px solid  rgb(20, 48, 27);
+    border-radius: 8px;
+    margin: 0 10px 20px;
+    font-size: 20px;
+    padding: 0 10px;
+}
